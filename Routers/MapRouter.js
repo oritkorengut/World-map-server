@@ -1,10 +1,8 @@
 const router=require('express').Router();
-const mapController= require("../Controllers/MapPoint");
+const mapController= require("../controllers/MapPoint");
 
 
-router.post("/addData",mapController.addPoint
-    
-)
+router.post("/addData",mapController.addPoint)
 
 
 module.exports = router
